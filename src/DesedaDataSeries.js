@@ -14,66 +14,6 @@ function DesedaDataSeries  () {
     })
   },[]);
 
-  const series = [
-    {
-      name: 'Cerveza XX Ambar 325 ml',
-      data: [
-        {
-          x: '10/04/2',
-          y: [
-            22
-          ]
-        },
-        {
-          x: '10/05/21',
-          y: [
-           24
-          ]
-        },
-        {
-          x: '10/06/21',
-          y: [
-            26.5
-          ]
-        },
-        {
-            x: '10/08/21',
-            y: [
-              24
-            ]
-          },
-      ]
-    },
-    {
-      name: 'Cerveza Tecate Light 355 ml',
-      data: [
-        {
-            x: '10/04/2',
-            y: [
-                22
-            ]
-          },
-          {
-            x: '10/05/21',
-            y: [
-             29
-            ]
-          },
-          {
-            x: '10/06/21',
-            y: [
-                21
-            ]
-          },
-          {
-              x: '10/08/21',
-              y: [
-                22
-              ]
-            },
-      ]
-    }]
-
     const Series = (dataSeries) =>{
         let newSeries = [];
         let sku;
