@@ -1,0 +1,19 @@
+.DesedaBody{
+    padding: 0rem 2.5rem 0rem 2.5rem;
+}
+
+.DesedaBody .DesedaDataChart{
+   display: flex;
+   align-items: center;
+}
+
+.DesedaDataSeries{
+    width: 100%;
+}
+
+.DesedaDataDonut{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
